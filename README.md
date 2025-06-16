@@ -48,14 +48,15 @@ WPF Related projects
 
 1. **创建虚拟串口对**：
    - 使用虚拟串口工具（如com0com）创建COM1↔COM2端口对
+  
+   - 虚拟串口软件汉化：https://blog.csdn.net/liu3332456755/article/details/142796085
 
 2. **启动两个程序实例**：
    ```bash
-    # 实例1（COM1）
-   SerialAssistant.exe
-   
+   # 实例1（COM1）
    # 实例2（COM2）
-   SerialAssistant.exe
+
+   - ctrl+f5
    
 3. **配置串口参数**：
 
@@ -71,5 +72,5 @@ WPF Related projects
 
    - 在实例2回复消息 → 实例1接收显示
   
-   - 虚拟串口软件汉化：https://blog.csdn.net/liu3332456755/article/details/142796085
+
   
